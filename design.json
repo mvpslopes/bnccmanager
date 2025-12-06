@@ -1,0 +1,557 @@
+{
+  "designSystem": {
+    "name": "Space Design System",
+    "version": "1.0.0",
+    "description": "Sistema de design moderno, limpo e profissional baseado em princípios de minimalismo e clareza visual",
+    "philosophy": {
+      "corePrinciples": [
+        "Minimalismo e clareza visual",
+        "Amplo uso de whitespace para respiração",
+        "Hierarquia visual bem definida",
+        "Consistência em todos os componentes",
+        "Profissionalismo e elegância",
+        "Foco na legibilidade e usabilidade"
+      ],
+      "aesthetic": "Clean, modern, professional dashboard with light theme dominated by whites and grays, accented with strategic color usage"
+    },
+    "layout": {
+      "structure": {
+        "type": "Sidebar + Header + Main Content",
+        "sidebar": {
+          "width": "narrow",
+          "position": "left",
+          "background": "light gray",
+          "sections": [
+            "Logo and branding at top",
+            "Vertical navigation menu",
+            "Upgrade/promotional card at bottom"
+          ]
+        },
+        "header": {
+          "position": "top",
+          "height": "standard",
+          "background": "white",
+          "content": [
+            "Greeting text (left)",
+            "Action icons and user profile (right)"
+          ]
+        },
+        "mainContent": {
+          "layout": "grid-based",
+          "padding": "generous",
+          "background": "white/light gray",
+          "organization": "card-based widgets and tables"
+        }
+      },
+      "grid": {
+        "type": "CSS Grid / Flexbox",
+        "breakpoints": {
+          "mobile": "320px",
+          "tablet": "768px",
+          "desktop": "1024px",
+          "wide": "1440px"
+        },
+        "columns": "12-column system (responsive)",
+        "gaps": {
+          "small": "8px",
+          "medium": "16px",
+          "large": "24px",
+          "xlarge": "32px"
+        }
+      }
+    },
+    "colors": {
+      "palette": {
+        "primary": {
+          "blue": {
+            "main": "#3B82F6",
+            "light": "#60A5FA",
+            "dark": "#2563EB",
+            "usage": "Primary actions, selected states, links, progress indicators"
+          }
+        },
+        "neutral": {
+          "white": "#FFFFFF",
+          "gray50": "#F9FAFB",
+          "gray100": "#F3F4F6",
+          "gray200": "#E5E7EB",
+          "gray300": "#D1D5DB",
+          "gray400": "#9CA3AF",
+          "gray500": "#6B7280",
+          "gray600": "#4B5563",
+          "gray700": "#374151",
+          "gray800": "#1F2937",
+          "gray900": "#111827",
+          "usage": "Backgrounds, borders, text hierarchy, dividers"
+        },
+        "semantic": {
+          "success": {
+            "main": "#10B981",
+            "light": "#34D399",
+            "dark": "#059669",
+            "usage": "Positive indicators, success states, solved/completed items"
+          },
+          "warning": {
+            "main": "#F59E0B",
+            "light": "#FBBF24",
+            "dark": "#D97706",
+            "usage": "Warnings, neutral states, pending items"
+          },
+          "error": {
+            "main": "#EF4444",
+            "light": "#F87171",
+            "dark": "#DC2626",
+            "usage": "Negative indicators, errors, declined states"
+          },
+          "info": {
+            "main": "#3B82F6",
+            "light": "#60A5FA",
+            "dark": "#2563EB",
+            "usage": "Informational messages, in-progress states"
+          }
+        },
+        "accent": {
+          "purple": {
+            "main": "#8B5CF6",
+            "light": "#A78BFA",
+            "dark": "#7C3AED",
+            "usage": "Charts, special highlights, secondary actions"
+          },
+          "green": {
+            "main": "#10B981",
+            "usage": "Positive metrics, growth indicators"
+          },
+          "red": {
+            "main": "#EF4444",
+            "usage": "Negative metrics, alerts"
+          }
+        }
+      },
+      "usage": {
+        "backgrounds": {
+          "primary": "white (#FFFFFF)",
+          "secondary": "light gray (#F3F4F6 or #F9FAFB)",
+          "sidebar": "light gray (#F3F4F6)",
+          "cards": "white (#FFFFFF)",
+          "hover": "gray50 (#F9FAFB)"
+        },
+        "text": {
+          "primary": "gray900 (#111827)",
+          "secondary": "gray600 (#4B5563)",
+          "tertiary": "gray500 (#6B7280)",
+          "disabled": "gray400 (#9CA3AF)",
+          "inverse": "white (#FFFFFF)"
+        },
+        "borders": {
+          "default": "gray200 (#E5E7EB)",
+          "hover": "gray300 (#D1D5DB)",
+          "focus": "blue main (#3B82F6)",
+          "divider": "gray200 (#E5E7EB)"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "primary": "System font stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+        "monospace": "Menlo, Monaco, 'Courier New', monospace"
+      },
+      "scale": {
+        "xs": {
+          "size": "12px",
+          "lineHeight": "16px",
+          "usage": "Labels, captions, small metadata"
+        },
+        "sm": {
+          "size": "14px",
+          "lineHeight": "20px",
+          "usage": "Secondary text, table cells, form labels"
+        },
+        "base": {
+          "size": "16px",
+          "lineHeight": "24px",
+          "usage": "Body text, default paragraph"
+        },
+        "lg": {
+          "size": "18px",
+          "lineHeight": "28px",
+          "usage": "Large body text, emphasized content"
+        },
+        "xl": {
+          "size": "20px",
+          "lineHeight": "28px",
+          "usage": "Small headings, card titles"
+        },
+        "2xl": {
+          "size": "24px",
+          "lineHeight": "32px",
+          "usage": "Section headings, card headers"
+        },
+        "3xl": {
+          "size": "30px",
+          "lineHeight": "36px",
+          "usage": "Page titles, major headings"
+        },
+        "4xl": {
+          "size": "36px",
+          "lineHeight": "44px",
+          "usage": "Hero headings, large displays"
+        }
+      },
+      "weights": {
+        "light": "300",
+        "normal": "400",
+        "medium": "500",
+        "semibold": "600",
+        "bold": "700"
+      },
+      "hierarchy": {
+        "h1": {
+          "size": "3xl",
+          "weight": "bold",
+          "color": "gray900"
+        },
+        "h2": {
+          "size": "2xl",
+          "weight": "semibold",
+          "color": "gray900"
+        },
+        "h3": {
+          "size": "xl",
+          "weight": "semibold",
+          "color": "gray800"
+        },
+        "h4": {
+          "size": "lg",
+          "weight": "medium",
+          "color": "gray700"
+        },
+        "body": {
+          "size": "base",
+          "weight": "normal",
+          "color": "gray600"
+        },
+        "caption": {
+          "size": "sm",
+          "weight": "normal",
+          "color": "gray500"
+        }
+      }
+    },
+    "spacing": {
+      "scale": {
+        "0": "0px",
+        "1": "4px",
+        "2": "8px",
+        "3": "12px",
+        "4": "16px",
+        "5": "20px",
+        "6": "24px",
+        "8": "32px",
+        "10": "40px",
+        "12": "48px",
+        "16": "64px",
+        "20": "80px",
+        "24": "96px"
+      },
+      "usage": {
+        "cardPadding": "16px-24px",
+        "sectionGap": "24px-32px",
+        "componentGap": "16px",
+        "elementGap": "8px-12px",
+        "whitespace": "generous (minimum 16px between major sections)"
+      }
+    },
+    "components": {
+      "sidebar": {
+        "width": "64px-80px (narrow)",
+        "background": "gray100",
+        "padding": {
+          "vertical": "24px",
+          "horizontal": "12px-16px"
+        },
+        "navigation": {
+          "itemHeight": "40px-48px",
+          "itemPadding": "12px",
+          "activeState": {
+            "background": "blue main",
+            "color": "white",
+            "borderRadius": "8px"
+          },
+          "hoverState": {
+            "background": "gray200",
+            "borderRadius": "8px"
+          },
+          "iconSize": "20px-24px",
+          "spacing": "8px between items"
+        }
+      },
+      "header": {
+        "height": "64px-72px",
+        "background": "white",
+        "padding": {
+          "horizontal": "24px-32px",
+          "vertical": "16px"
+        },
+        "border": {
+          "bottom": "1px solid gray200"
+        },
+        "greeting": {
+          "size": "lg",
+          "weight": "medium",
+          "color": "gray800"
+        },
+        "actions": {
+          "iconSize": "20px",
+          "spacing": "16px",
+          "buttonPadding": "8px-12px"
+        }
+      },
+      "card": {
+        "background": "white",
+        "borderRadius": "12px-16px",
+        "padding": "20px-24px",
+        "shadow": "subtle (0 1px 3px rgba(0,0,0,0.1))",
+        "border": "optional 1px solid gray200",
+        "spacing": {
+          "internal": "16px-20px between elements",
+          "external": "24px between cards"
+        },
+        "header": {
+          "title": {
+            "size": "sm",
+            "weight": "semibold",
+            "color": "gray700",
+            "textTransform": "uppercase",
+            "letterSpacing": "0.5px",
+            "marginBottom": "16px"
+          }
+        }
+      },
+      "button": {
+        "primary": {
+          "background": "blue main",
+          "color": "white",
+          "padding": "10px-16px",
+          "borderRadius": "8px",
+          "fontWeight": "medium",
+          "fontSize": "sm",
+          "hover": {
+            "background": "blue dark",
+            "transform": "none"
+          }
+        },
+        "secondary": {
+          "background": "white",
+          "color": "gray700",
+          "border": "1px solid gray300",
+          "padding": "10px-16px",
+          "borderRadius": "8px",
+          "fontWeight": "medium",
+          "fontSize": "sm",
+          "hover": {
+            "background": "gray50",
+            "borderColor": "gray400"
+          }
+        },
+        "ghost": {
+          "background": "transparent",
+          "color": "gray600",
+          "padding": "8px-12px",
+          "borderRadius": "6px",
+          "hover": {
+            "background": "gray100"
+          }
+        }
+      },
+      "badge": {
+        "status": {
+          "padding": "4px-8px",
+          "borderRadius": "6px",
+          "fontSize": "xs",
+          "fontWeight": "medium",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.5px",
+          "variants": {
+            "solved": {
+              "background": "success light",
+              "color": "success dark",
+              "text": "SOLVED"
+            },
+            "inProgress": {
+              "background": "info light",
+              "color": "info dark",
+              "text": "IN PROGRESS"
+            },
+            "declined": {
+              "background": "error light",
+              "color": "error dark",
+              "text": "DECLINED"
+            },
+            "hold": {
+              "background": "warning light",
+              "color": "warning dark",
+              "text": "HOLD"
+            }
+          }
+        }
+      },
+      "table": {
+        "background": "white",
+        "borderRadius": "12px",
+        "overflow": "hidden",
+        "header": {
+          "background": "gray50",
+          "padding": "12px-16px",
+          "fontSize": "xs",
+          "fontWeight": "semibold",
+          "color": "gray600",
+          "textTransform": "uppercase",
+          "letterSpacing": "0.5px"
+        },
+        "row": {
+          "padding": "12px-16px",
+          "borderBottom": "1px solid gray200",
+          "hover": {
+            "background": "gray50"
+          }
+        },
+        "cell": {
+          "padding": "12px-16px",
+          "fontSize": "sm",
+          "color": "gray700"
+        }
+      },
+      "input": {
+        "height": "40px",
+        "padding": "10px-12px",
+        "borderRadius": "8px",
+        "border": "1px solid gray300",
+        "fontSize": "sm",
+        "background": "white",
+        "focus": {
+          "borderColor": "blue main",
+          "outline": "2px solid blue light (with opacity)",
+          "outlineOffset": "2px"
+        }
+      },
+      "chart": {
+        "donut": {
+          "size": "varies (120px-200px)",
+          "strokeWidth": "8px-12px",
+          "colors": ["purple main", "blue main", "green main"],
+          "centerLabel": {
+            "fontSize": "lg",
+            "fontWeight": "bold",
+            "color": "gray900"
+          }
+        },
+        "bar": {
+          "height": "varies",
+          "borderRadius": "4px",
+          "background": "blue main",
+          "spacing": "8px between bars"
+        }
+      },
+      "avatar": {
+        "size": {
+          "small": "24px",
+          "medium": "32px",
+          "large": "40px"
+        },
+        "borderRadius": "50%",
+        "border": "2px solid white",
+        "background": "gray200"
+      },
+      "icon": {
+        "size": {
+          "small": "16px",
+          "medium": "20px",
+          "large": "24px"
+        },
+        "color": {
+          "default": "gray600",
+          "hover": "gray800",
+          "active": "blue main"
+        }
+      }
+    },
+    "effects": {
+      "shadows": {
+        "sm": "0 1px 2px rgba(0,0,0,0.05)",
+        "md": "0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06)",
+        "lg": "0 4px 6px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.06)",
+        "xl": "0 10px 15px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.05)"
+      },
+      "transitions": {
+        "default": "all 150ms ease-in-out",
+        "fast": "all 100ms ease-in-out",
+        "slow": "all 300ms ease-in-out"
+      },
+      "hover": {
+        "lift": "transform: translateY(-2px), shadow: md",
+        "background": "background color change",
+        "opacity": "opacity: 0.8"
+      }
+    },
+    "patterns": {
+      "dataVisualization": {
+        "charts": {
+          "style": "clean, minimal, high contrast",
+          "colors": "use semantic colors (blue, purple, green, red)",
+          "labels": "clear, readable, positioned outside when possible"
+        },
+        "metrics": {
+          "display": "large numbers with descriptive labels",
+          "trends": "show percentage change with color coding (green up, red down)",
+          "format": "use emojis sparingly for visual interest"
+        }
+      },
+      "informationArchitecture": {
+        "hierarchy": "Clear visual hierarchy with size, weight, and color",
+        "grouping": "Related items grouped in cards",
+        "progressiveDisclosure": "Show summary, allow drill-down"
+      },
+      "interaction": {
+        "feedback": "Immediate visual feedback on all interactions",
+        "states": "Clear hover, active, focus, and disabled states",
+        "loading": "Subtle loading indicators, skeleton screens"
+      }
+    },
+    "accessibility": {
+      "contrast": {
+        "minimum": "WCAG AA (4.5:1 for normal text, 3:1 for large text)",
+        "recommended": "WCAG AAA where possible"
+      },
+      "focus": {
+        "visible": "Always visible focus indicators",
+        "style": "2px solid blue main with offset"
+      },
+      "semantics": "Proper HTML semantics, ARIA labels where needed"
+    },
+    "responsive": {
+      "mobile": {
+        "sidebar": "hidden/collapsible",
+        "cards": "full width, stacked",
+        "table": "horizontal scroll or card view",
+        "spacing": "reduced padding (12px-16px)"
+      },
+      "tablet": {
+        "sidebar": "collapsible or narrow",
+        "cards": "2-column grid",
+        "spacing": "standard padding"
+      },
+      "desktop": {
+        "sidebar": "always visible",
+        "cards": "multi-column grid (2-4 columns)",
+        "spacing": "generous padding (24px-32px)"
+      }
+    },
+    "implementation": {
+      "framework": "React with Tailwind CSS",
+      "utilities": "Use Tailwind utility classes matching this design system",
+      "customization": "Extend Tailwind config with custom colors, spacing, and components",
+      "components": "Create reusable component library following these specifications"
+    }
+  }
+}
+

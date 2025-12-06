@@ -1,0 +1,1156 @@
+[
+  {
+    "id": "segunda-08-12",
+    "label": "Segunda-Feira (08/12)",
+    "order": 1,
+    "date": "08/12",
+    "sections": [
+      {
+        "id": "zoom",
+        "label": "Link Reuniões do Zoom",
+        "items": [
+          {
+            "id": "zoom-manha-1",
+            "title": "M01A01 - Introdução e Contextualização da BNCC Computacional (Manhã)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/82359965563?pwd=oz7mePaKuBQOzO2Dd0JIEXUexyNR7U.1"
+          },
+          {
+            "id": "zoom-tarde-1",
+            "title": "M01A01 - Introdução e Contextualização da BNCC Computacional (Tarde)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/84946929452?pwd=O3Rm7SfFx8HSibkAaArUEaXMCQhigN.1"
+          }
+        ]
+      },
+      {
+        "id": "presencas",
+        "label": "Link Presenças",
+        "items": [
+          {
+            "id": "presenca-1",
+            "title": "Formulário de Presença",
+            "type": "form",
+            "url": "https://forms.gle/57kAaFSSXxTuFBQd7"
+          }
+        ]
+      },
+      {
+        "id": "dinamicas",
+        "label": "Link Dinâmicas",
+        "items": [
+          {
+            "id": "dinamica-1",
+            "title": "Formulário de Dinâmicas",
+            "type": "form",
+            "url": "https://forms.gle/aVSHNrf5XzRdBkDE9"
+          }
+        ]
+      },
+      {
+        "id": "avaliacao",
+        "label": "Link Avaliação",
+        "items": [
+          {
+            "id": "avaliacao-1",
+            "title": "Formulário de Avaliação",
+            "type": "form",
+            "url": "https://forms.gle/UdaQf8BoRPvXXRzy8"
+          }
+        ]
+      },
+      {
+        "id": "recursos",
+        "label": "Link de Recursos",
+        "items": [
+          {
+            "id": "recurso-1a",
+            "title": "Aula 01 Recursos Adicionais no Drive",
+            "type": "recurso",
+            "url": "https://drive.google.com/drive/folders/16OpzrsFgvPhBBDCuDakM5So-QO6SVRKv?usp=drive_link"
+          },
+          {
+            "id": "recurso-1b",
+            "title": "Fórum Econômico Mundial divulga relatório sobre o futuro do trabalho",
+            "type": "recurso",
+            "url": "https://www.youtube.com/watch?v=pxJ-IFNIwQ4"
+          },
+          {
+            "id": "recurso-1c",
+            "title": "Profissões do Futuro",
+            "type": "recurso",
+            "url": "https://www.youtube.com/watch?v=K_hzORMcGdA"
+          },
+          {
+            "id": "recurso-1d",
+            "title": "E-Book",
+            "type": "recurso",
+            "url": "https://drive.google.com/file/d/1n298n0cc2d9sUUl_UF4EswfR68gi-46w/view?usp=drive_link"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "terca-09-12",
+    "label": "Terça-Feira (09/12)",
+    "order": 2,
+    "date": "09/12",
+    "sections": [
+      {
+        "id": "zoom",
+        "label": "Link Reuniões do Zoom",
+        "items": [
+          {
+            "id": "zoom-manha-2",
+            "title": "M01A02 - Pensamento Computacional: Conceitos e Importância (Manhã)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/82231025192?pwd=ydKE31rhEEKtNlHGsZhiFJ0QpSzLTm.1"
+          },
+          {
+            "id": "zoom-tarde-2",
+            "title": "M01A02 - Pensamento Computacional: Conceitos e Importância (Tarde)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/88133877182?pwd=jUBrHYUWoIJmZBd6sOINd7bjSZoW45.1"
+          }
+        ]
+      },
+      {
+        "id": "presencas",
+        "label": "Link Presenças",
+        "items": [
+          {
+            "id": "presenca-2",
+            "title": "Formulário de Presença",
+            "type": "form",
+            "url": "https://forms.gle/WamMGVizLyku2VCC6"
+          }
+        ]
+      },
+      {
+        "id": "dinamicas",
+        "label": "Link Dinâmicas",
+        "items": [
+          {
+            "id": "dinamica-2",
+            "title": "Formulário de Dinâmicas",
+            "type": "form",
+            "url": "https://forms.gle/gVMvHQeuprKHS2f29"
+          }
+        ]
+      },
+      {
+        "id": "avaliacao",
+        "label": "Link Avaliação",
+        "items": [
+          {
+            "id": "avaliacao-2",
+            "title": "Formulário de Avaliação",
+            "type": "form",
+            "url": "https://forms.gle/bHSQNYrFUv9AmJEY8"
+          }
+        ]
+      },
+      {
+        "id": "recursos",
+        "label": "Link Recursos",
+        "items": [
+          {
+            "id": "recurso-2a",
+            "title": "E-Book",
+            "type": "recurso",
+            "url": "https://drive.google.com/file/d/12AQiqyPuzRmIAbPEJD1ppgGKztmQRzVj/view?usp=drive_link"
+          },
+          {
+            "id": "recurso-2b",
+            "title": "Code ORG",
+            "type": "recurso",
+            "url": "https://studio.code.org/courses/nevada-standards-aligned-kindergarten-2023/units/1/lessons/2/levels/1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quarta-10-12",
+    "label": "Quarta-Feira (10/12)",
+    "order": 3,
+    "date": "10/12",
+    "sections": [
+      {
+        "id": "zoom",
+        "label": "Link Reuniões do Zoom",
+        "items": [
+          {
+            "id": "zoom-manha-3",
+            "title": "M01A03/04 - Mundo Digital: Noções Básicas de Tecnologia & Cultura Digital: Cidadania, Ética e Impactos das Tecnologias (Manhã)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/86090851262?pwd=psUnnbebgeJppjVQLfLB1RgDVeW5MU.1"
+          },
+          {
+            "id": "zoom-tarde-3",
+            "title": "M01A03/04 - Mundo Digital: Noções Básicas de Tecnologia & Cultura Digital: Cidadania, Ética e Impactos das Tecnologias (Tarde)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/85803267819?pwd=IIIamsn2DM2i736bnQvvB9aaYHtaJp.1"
+          }
+        ]
+      },
+      {
+        "id": "presencas",
+        "label": "Link Presenças",
+        "items": [
+          {
+            "id": "presenca-3",
+            "title": "Formulário de Presença",
+            "type": "form",
+            "url": "https://forms.gle/p1QZiqtBE3uV5r3i6"
+          }
+        ]
+      },
+      {
+        "id": "dinamicas",
+        "label": "Link Dinâmicas",
+        "items": [
+          {
+            "id": "dinamica-3a",
+            "title": "Aula 03",
+            "type": "form",
+            "url": "https://forms.gle/z9U5Axn8fsNfUZdC8"
+          },
+          {
+            "id": "dinamica-3b",
+            "title": "Aula 04",
+            "type": "form",
+            "url": "https://forms.gle/dsFrK45tcqum6dVs7"
+          }
+        ]
+      },
+      {
+        "id": "avaliacao",
+        "label": "Link Avaliação",
+        "items": [
+          {
+            "id": "avaliacao-3a",
+            "title": "Aula 03",
+            "type": "form",
+            "url": "https://forms.gle/o1M3WPUZHBSdXbHq7"
+          },
+          {
+            "id": "avaliacao-3b",
+            "title": "Aula 04",
+            "type": "form",
+            "url": "https://forms.gle/c1RRvjhoZiN6sZ3F9"
+          }
+        ]
+      },
+      {
+        "id": "recursos",
+        "label": "Link Recursos",
+        "items": [
+          {
+            "id": "recurso-3a",
+            "title": "A rede global (e invisível) de cabos que mantém a internet funcionando",
+            "type": "recurso",
+            "url": "https://www.youtube.com/watch?v=DRaTbGYdkvQ"
+          },
+          {
+            "id": "recurso-3b",
+            "title": "E-Book",
+            "type": "recurso",
+            "url": "https://drive.google.com/file/d/1JSkIpKoiDZNa7aeS9kEYlJZmSSg2Xlot/view?usp=drive_link"
+          },
+          {
+            "id": "recurso-3c",
+            "title": "E-Book",
+            "type": "recurso",
+            "url": "https://drive.google.com/file/d/10BFDgx7-mQan0JAtI9tsfj9lSXwEihga/view?usp=drive_link"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quinta-11-12",
+    "label": "Quinta-Feira (11/12)",
+    "order": 4,
+    "date": "11/12",
+    "sections": [
+      {
+        "id": "zoom",
+        "label": "Link Reuniões do Zoom",
+        "items": [
+          {
+            "id": "zoom-manha-4",
+            "title": "M01A05/06 - Introdução da Aplicação da BNCC Computacional na Educação Básica & Aplicando a BNCC Computacional na Educação Infantil e Ensino Fundamental I (Anos Iniciais) (Manhã)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/81428193472?pwd=QJb40hV3S8RrlzemrqiS6g1adPvZZ8.1"
+          },
+          {
+            "id": "zoom-tarde-4",
+            "title": "M01A05/06 - Introdução da Aplicação da BNCC Computacional na Educação Básica & Aplicando a BNCC Computacional na Educação Infantil e Ensino Fundamental I (Anos Iniciais) (Tarde)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/84833949087?pwd=IBZhx63wSAk3WXDEHgLGQTDhPO3gcC.1"
+          }
+        ]
+      },
+      {
+        "id": "presencas",
+        "label": "Link Presenças",
+        "items": [
+          {
+            "id": "presenca-4",
+            "title": "Formulário de Presença",
+            "type": "form",
+            "url": "https://forms.gle/dhenFs5ScM6MmyrD6"
+          }
+        ]
+      },
+      {
+        "id": "dinamicas",
+        "label": "Link Dinâmicas",
+        "items": [
+          {
+            "id": "dinamica-4",
+            "title": "Aula 06",
+            "type": "form",
+            "url": "https://forms.gle/y2Hd5QN8LbGiSaQa9"
+          }
+        ]
+      },
+      {
+        "id": "avaliacao",
+        "label": "Link Avaliação",
+        "items": [
+          {
+            "id": "avaliacao-4a",
+            "title": "Aula 05",
+            "type": "form",
+            "url": "https://forms.gle/vWj9RMFR3om4q2KZA"
+          },
+          {
+            "id": "avaliacao-4b",
+            "title": "Aula 06",
+            "type": "form",
+            "url": "https://forms.gle/8bVimgRYxWw8Hfw47"
+          }
+        ]
+      },
+      {
+        "id": "recursos",
+        "label": "Link Recursos",
+        "items": [
+          {
+            "id": "recurso-4a",
+            "title": "E-Book",
+            "type": "recurso",
+            "url": "https://drive.google.com/file/d/1Unt6TNDocgLTsK_SMAN71ukeawNtTwi_/view?usp=drive_link"
+          },
+          {
+            "id": "recurso-4b",
+            "title": "E-Book",
+            "type": "recurso",
+            "url": "https://drive.google.com/file/d/1nJBhZgqkBG0CA017Z1D6D7ROhTuc1-TF/view?usp=drive_link"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sexta-12-12",
+    "label": "Sexta-Feira (12/12)",
+    "order": 5,
+    "date": "12/12",
+    "sections": [
+      {
+        "id": "zoom",
+        "label": "Link Reuniões do Zoom",
+        "items": [
+          {
+            "id": "zoom-manha-5",
+            "title": "M01A07/08 - Aplicando a BNCC Computacional no Ensino Fundamental II (Anos Finais) & Aplicando a BNCC Computacional no AEE (Atendimento Educacional Especializado) (Manhã)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/81120310865?pwd=FUas19INiVZM61xnfu5ZK4QLFnb6ic.1"
+          },
+          {
+            "id": "zoom-tarde-5",
+            "title": "M01A07/08 - Aplicando a BNCC Computacional no Ensino Fundamental II (Anos Finais) & Aplicando a BNCC Computacional no AEE (Atendimento Educacional Especializado) (Tarde)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/85006665389?pwd=mOfYG7OGl9wgbXFA1uEroahInlIKmv.1"
+          }
+        ]
+      },
+      {
+        "id": "presencas",
+        "label": "Link Presenças",
+        "items": [
+          {
+            "id": "presenca-5",
+            "title": "Formulário de Presença",
+            "type": "form",
+            "url": "https://forms.gle/XQduGCNkdzxa6fXXA"
+          }
+        ]
+      },
+      {
+        "id": "dinamicas",
+        "label": "Link Dinâmicas",
+        "items": [
+          {
+            "id": "dinamica-5a",
+            "title": "Aula 07",
+            "type": "form",
+            "url": "https://forms.gle/ckxxDM2t5YjjAfS39"
+          },
+          {
+            "id": "dinamica-5b",
+            "title": "Aula 08",
+            "type": "form",
+            "url": "https://forms.gle/UuHxrvqUC2C92d1j6"
+          }
+        ]
+      },
+      {
+        "id": "avaliacao",
+        "label": "Link Avaliação",
+        "items": [
+          {
+            "id": "avaliacao-5a",
+            "title": "Aula 07",
+            "type": "form",
+            "url": "https://forms.gle/334C5SLrwnuL5n3T7"
+          },
+          {
+            "id": "avaliacao-5b",
+            "title": "Aula 08",
+            "type": "form",
+            "url": "https://forms.gle/d3X5eKjSAkLZwFhj8"
+          }
+        ]
+      },
+      {
+        "id": "recursos",
+        "label": "Link recursos",
+        "items": [
+          {
+            "id": "recurso-5a",
+            "title": "Canal Geração Alfa",
+            "type": "recurso",
+            "url": "https://www.youtube.com/watch?v=_7D2rDLSIzk"
+          },
+          {
+            "id": "recurso-5b",
+            "title": "E-Book",
+            "type": "recurso",
+            "url": "https://drive.google.com/file/d/1zOgOxsME8yeF1xWfRQKSMeBZa8tt-hQr/view?usp=drive_link"
+          },
+          {
+            "id": "recurso-5c",
+            "title": "E-Book",
+            "type": "recurso",
+            "url": "https://drive.google.com/file/d/1n_l27yNTj7c3h4Yfik3dKGsubrEh5gV4/view?usp=drive_link"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sabado-13-12",
+    "label": "Sábado (13/12)",
+    "order": 6,
+    "date": "13/12",
+    "sections": [
+      {
+        "id": "zoom",
+        "label": "Link Reuniões do Zoom",
+        "items": [
+          {
+            "id": "zoom-manha-6",
+            "title": "M01A09 - Computação e Mercado de Trabalho: Competências para o Futuro Revisão (Manhã)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/87648187049?pwd=yOFMKQzB3ObvAtPHRrahr7c8E0sY4l.1"
+          }
+        ]
+      },
+      {
+        "id": "presencas",
+        "label": "Link Presenças",
+        "items": [
+          {
+            "id": "presenca-6",
+            "title": "Formulário de Presença",
+            "type": "form",
+            "url": "https://forms.gle/b9i2byrDvyZVaLhh9"
+          }
+        ]
+      },
+      {
+        "id": "dinamicas",
+        "label": "Link Dinâmicas",
+        "items": [
+          {
+            "id": "dinamica-6a",
+            "title": "01",
+            "type": "form",
+            "url": "https://forms.gle/ARFEY43Y1bKTg91R6"
+          },
+          {
+            "id": "dinamica-6b",
+            "title": "02",
+            "type": "form",
+            "url": "https://forms.gle/2NtYHh6twMmosMGM9"
+          },
+          {
+            "id": "dinamica-6c",
+            "title": "03",
+            "type": "form",
+            "url": "https://forms.gle/vbneD16aQKCM7jtq9"
+          }
+        ]
+      },
+      {
+        "id": "avaliacao",
+        "label": "Link Avaliação",
+        "items": [
+          {
+            "id": "avaliacao-6",
+            "title": "Formulário de Avaliação",
+            "type": "form",
+            "url": "https://forms.gle/uJiP6s5Qkpfsqrmj6"
+          }
+        ]
+      },
+      {
+        "id": "recursos",
+        "label": "Link Recursos",
+        "items": [
+          {
+            "id": "recurso-6a",
+            "title": "Aula 09 Recursos Adicionais no Drive",
+            "type": "recurso",
+            "url": "https://drive.google.com/drive/folders/1MHwKEVsBJM5GLX6pV5un80LGSi4kW0R_?usp=drive_link"
+          },
+          {
+            "id": "recurso-6b",
+            "title": "E-Book",
+            "type": "recurso",
+            "url": "https://drive.google.com/file/d/1qSG0OWXzoJ34z6Ur_NB58CM_62HhaNZF/view?usp=drive_link"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "segunda-15-12",
+    "label": "Segunda-Feira (15/12)",
+    "order": 7,
+    "date": "15/12",
+    "sections": [
+      {
+        "id": "zoom",
+        "label": "Link Reuniões do Zoom",
+        "items": [
+          {
+            "id": "zoom-manha-7",
+            "title": "M01A10 - Planejamento da Implementação da BNCC Computacional (Manhã)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/87646498578?pwd=AEINMaPtyHcbSY6a018MVHDEXi7Iqs.1"
+          },
+          {
+            "id": "zoom-tarde-7",
+            "title": "M01A10 - Planejamento da Implementação da BNCC Computacional (Tarde)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/87090955119?pwd=Jo8jQLkZR8seaOeCUgQqKRQ3sJllbb.1"
+          }
+        ]
+      },
+      {
+        "id": "presencas",
+        "label": "Link Presenças",
+        "items": [
+          {
+            "id": "presenca-7",
+            "title": "Formulário de Presença",
+            "type": "form",
+            "url": "https://forms.gle/kLMcMjg5MVMKudVE9"
+          }
+        ]
+      },
+      {
+        "id": "dinamicas",
+        "label": "Link Dinâmicas",
+        "items": [
+          {
+            "id": "dinamica-7a",
+            "title": "01",
+            "type": "form",
+            "url": "https://forms.gle/wacDSnrAjSSPF9297"
+          },
+          {
+            "id": "dinamica-7b",
+            "title": "02",
+            "type": "form",
+            "url": "https://forms.gle/rXVv6nRedsc6BNni9"
+          }
+        ]
+      },
+      {
+        "id": "avaliacao",
+        "label": "Link Avaliação",
+        "items": [
+          {
+            "id": "avaliacao-7",
+            "title": "Formulário de Avaliação",
+            "type": "form",
+            "url": "https://forms.gle/4v48yge98oPSb7s9A"
+          }
+        ]
+      },
+      {
+        "id": "recursos",
+        "label": "Link Recursos",
+        "items": [
+          {
+            "id": "recurso-7a",
+            "title": "Aula 10 Recursos Adicionais no Drive",
+            "type": "recurso",
+            "url": "https://drive.google.com/drive/folders/1UGt-Vh-MgCwYvg8ikiq_3ZqlB8MvyZLe?usp=drive_link"
+          },
+          {
+            "id": "recurso-7b",
+            "title": "Como fazer uma avaliação das Competências e Capacitação dos Professores",
+            "type": "recurso",
+            "url": "https://autoavaliacaodigital.cieb.net.br/"
+          },
+          {
+            "id": "recurso-7c",
+            "title": "Vídeo sobre Avaliação",
+            "type": "recurso",
+            "url": "https://www.youtube.com/watch?v=-EDSndUuK-8&t=2s"
+          },
+          {
+            "id": "recurso-7d",
+            "title": "E-Book",
+            "type": "recurso",
+            "url": "https://drive.google.com/file/d/132elAbA_yT7fs4LZbq0JMJI-_MrGNcqf/view?usp=drive_link"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "terca-16-12",
+    "label": "Terça-Feira (16/12)",
+    "order": 8,
+    "date": "16/12",
+    "sections": [
+      {
+        "id": "zoom",
+        "label": "Link Reuniões do Zoom",
+        "items": [
+          {
+            "id": "zoom-manha-8",
+            "title": "M02A01 - Atividades Práticas BNCC Computacional (Educação Infantil Desplugadas) (Manhã)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/87024168238?pwd=OqzRVGjzTJ7DwiKkf6bB1QjhLaBuu9.1"
+          },
+          {
+            "id": "zoom-tarde-8",
+            "title": "M02A01 - Atividades Práticas BNCC Computacional (Educação Infantil Desplugadas) (Tarde)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/83251120595?pwd=Mqj7NZaERvxEif9uIhE4amxXlExMV6.1"
+          }
+        ]
+      },
+      {
+        "id": "presencas",
+        "label": "Link Presenças",
+        "items": [
+          {
+            "id": "presenca-8",
+            "title": "Formulário de Presença",
+            "type": "form",
+            "url": "https://forms.gle/PSeyjcfTVK6UkgJ49"
+          }
+        ]
+      },
+      {
+        "id": "outros",
+        "label": "Outros Formulários",
+        "items": [
+          {
+            "id": "formulario-nomes-8",
+            "title": "Formulário Nomes Certificados",
+            "type": "form",
+            "url": "https://forms.gle/gBeFKfWnn3TVACA29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quarta-17-12",
+    "label": "Quarta-Feira (17/12)",
+    "order": 9,
+    "date": "17/12",
+    "sections": [
+      {
+        "id": "zoom",
+        "label": "Link Reuniões do Zoom",
+        "items": [
+          {
+            "id": "zoom-manha-9",
+            "title": "M02A02 - Atividades Práticas BNCC Computacional (Educação Infantil Plugada e Desplugada) (Manhã)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/87468054659?pwd=dr3AVUJ0N9b68BafZLPXRa06X7UfQH.1"
+          },
+          {
+            "id": "zoom-tarde-9",
+            "title": "M02A02 - Atividades Práticas BNCC Computacional (Educação Infantil Plugada e Desplugada) (Tarde)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/89152715620?pwd=x5mQXMMuaBCWOvmN6Dj0I791s9lwj2.1"
+          }
+        ]
+      },
+      {
+        "id": "presencas",
+        "label": "Link Presenças",
+        "items": [
+          {
+            "id": "presenca-9",
+            "title": "Formulário de Presença",
+            "type": "form",
+            "url": "https://forms.gle/4f8m61naqUcz5MP86"
+          }
+        ]
+      },
+      {
+        "id": "recursos",
+        "label": "Links dos Sites das Atividades Práticas (Educação Infantil)",
+        "items": [
+          {
+            "id": "recurso-9a",
+            "title": "Jogos de Colorir e Desenhar - Colorir Online",
+            "type": "recurso",
+            "url": "https://colorir-online.com"
+          },
+          {
+            "id": "recurso-9b",
+            "title": "Jogos de Colorir e Desenhar - Lousa Legal",
+            "type": "recurso",
+            "url": "https://www.escolagames.com.br/jogos/lousa-legal"
+          },
+          {
+            "id": "recurso-9c",
+            "title": "Jogos de Colorir e Desenhar - Hora de Pintar Animais",
+            "type": "recurso",
+            "url": "https://www.escolagames.com.br/jogos/hora-de-pintar-animais"
+          },
+          {
+            "id": "recurso-9d",
+            "title": "Jogo Genius Online - Free Simon",
+            "type": "recurso",
+            "url": "https://freesimon.org"
+          },
+          {
+            "id": "recurso-9e",
+            "title": "Jogo Genius Online - Jogos 360",
+            "type": "recurso",
+            "url": "https://www.jogos360.com.br/genius_memory_classic.html"
+          },
+          {
+            "id": "recurso-9f",
+            "title": "Jogo das Diferenças - 7 Erros Escola Games",
+            "type": "recurso",
+            "url": "https://www.escolagames.com.br/jogos/jogo-dos-7-erros"
+          },
+          {
+            "id": "recurso-9g",
+            "title": "Jogo das Diferenças - John Deere",
+            "type": "recurso",
+            "url": "https://www.deere.com.br/pt/john-deere-for-kids/7erros/"
+          },
+          {
+            "id": "recurso-9h",
+            "title": "Jogo das Diferenças - Zuzubalândia",
+            "type": "recurso",
+            "url": "https://zuzubalandia.com.br/jogos-sete-erros-m.html"
+          },
+          {
+            "id": "recurso-9i",
+            "title": "Complete o Padrão - IXL Matemática",
+            "type": "recurso",
+            "url": "https://br.ixl.com/matematica/pre-escola/complete-o-padrao"
+          },
+          {
+            "id": "recurso-9j",
+            "title": "Complete o Padrão - IXL Forme um Padrão",
+            "type": "recurso",
+            "url": "https://br.ixl.com/matematica/pre-escola/forme-um-padrao"
+          },
+          {
+            "id": "recurso-9k",
+            "title": "Jogo do Labirinto - Labirinto Polar",
+            "type": "recurso",
+            "url": "https://www.escolagames.com.br/jogos/labirinto-polar"
+          },
+          {
+            "id": "recurso-9l",
+            "title": "Jogo do Labirinto - Jogos Grátis para Crianças",
+            "type": "recurso",
+            "url": "https://www.jogosgratisparacriancas.com/labirintos/index.php"
+          },
+          {
+            "id": "recurso-9m",
+            "title": "Jogo do Labirinto - Coquinhos",
+            "type": "recurso",
+            "url": "https://www.coquinhos.com/labirinto-de-colheita/play/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quinta-18-12",
+    "label": "Quinta-Feira (18/12)",
+    "order": 10,
+    "date": "18/12",
+    "sections": [
+      {
+        "id": "zoom",
+        "label": "Link Reuniões do Zoom",
+        "items": [
+          {
+            "id": "zoom-manha-10",
+            "title": "M02A03 - Atividades Práticas BNCC Computacional (AEE - Desplugadas) (Manhã)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/81680973382?pwd=MU7Y0n8ZMh34AzsoAlnnADanbF0J6N.1"
+          },
+          {
+            "id": "zoom-tarde-10",
+            "title": "M02A03 - Atividades Práticas BNCC Computacional (AEE - Desplugadas) (Tarde)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/88262886489?pwd=LJNADC2alZmw18RotwxqVniaVmbmRZ.1"
+          }
+        ]
+      },
+      {
+        "id": "presencas",
+        "label": "Link Presenças",
+        "items": [
+          {
+            "id": "presenca-10",
+            "title": "Formulário de Presença",
+            "type": "form",
+            "url": "https://forms.gle/wa3y9icVmZzUM8ds6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sexta-19-12",
+    "label": "Sexta-Feira (19/12)",
+    "order": 11,
+    "date": "19/12",
+    "sections": [
+      {
+        "id": "zoom",
+        "label": "Link Reuniões do Zoom",
+        "items": [
+          {
+            "id": "zoom-manha-11",
+            "title": "M02A04 - Atividades Práticas BNCC Computacional (Anos Iniciais) - (Plugada e Desplugada) (Manhã)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/84546179360?pwd=H7Hl61nP1JvhXTywhkgnO6FbhC4qpl.1"
+          },
+          {
+            "id": "zoom-tarde-11",
+            "title": "M02A04 - Atividades Práticas BNCC Computacional (Anos Iniciais) - (Plugada e Desplugada) (Tarde)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/85629732024?pwd=jViQbdRa0odzobl3GKzD2sWIrApVYF.1"
+          }
+        ]
+      },
+      {
+        "id": "presencas",
+        "label": "Link Presenças",
+        "items": [
+          {
+            "id": "presenca-11",
+            "title": "Formulário de Presença",
+            "type": "form",
+            "url": "https://forms.gle/PHVV7ZzdJd3xzQFz5"
+          }
+        ]
+      },
+      {
+        "id": "recursos",
+        "label": "Links dos Sites das Atividades Práticas",
+        "items": [
+          {
+            "id": "recurso-11a",
+            "title": "Atividades Plugadas 1º ano - Escrever os Números",
+            "type": "recurso",
+            "url": "https://www.coquinhos.com/escrever-os-numeros-para-criancas/play/"
+          },
+          {
+            "id": "recurso-11b",
+            "title": "Atividades Plugadas 1º ano - Ligue os Pontos 1-10",
+            "type": "recurso",
+            "url": "https://www.coquinhos.com/ligue-os-pontos-1-10/play/"
+          },
+          {
+            "id": "recurso-11c",
+            "title": "Atividades Plugadas 1º ano - Zoo Louco",
+            "type": "recurso",
+            "url": "https://www.escolagames.com.br/jogos/zoo-louco"
+          },
+          {
+            "id": "recurso-11d",
+            "title": "Atividades Plugadas 1º ano - Jogo da Memória Animal",
+            "type": "recurso",
+            "url": "https://www.escolagames.com.br/diversao/memoria-animal-2"
+          },
+          {
+            "id": "recurso-11e",
+            "title": "Atividades Plugadas 1º ano - Memória Musical",
+            "type": "recurso",
+            "url": "https://wordwall.net/pt/resource/10345775/jogos-da-mem%C3%B3ria-musical"
+          },
+          {
+            "id": "recurso-11f",
+            "title": "Atividades Plugadas 2º ano - Hardware e Software (Encontre os Pares)",
+            "type": "recurso",
+            "url": "https://wordwall.net/pt/resource/30414742/inform%c3%a1tica/encontre-os-pares-computador"
+          },
+          {
+            "id": "recurso-11g",
+            "title": "Atividades Plugadas 2º ano - Classificando Hardware e Software",
+            "type": "recurso",
+            "url": "https://wordwall.net/pt/resource/29080796/inform%c3%a1tica/classificando-hardware-e-software"
+          },
+          {
+            "id": "recurso-11h",
+            "title": "Atividades Plugadas 2º ano - Gartic",
+            "type": "recurso",
+            "url": "https://gartic.com.br"
+          },
+          {
+            "id": "recurso-11i",
+            "title": "Atividades Plugadas 3º ano - Google",
+            "type": "recurso",
+            "url": "http://www.google.com.br"
+          },
+          {
+            "id": "recurso-11j",
+            "title": "Atividades Plugadas 3º ano - Brave Search",
+            "type": "recurso",
+            "url": "https://search.brave.com"
+          },
+          {
+            "id": "recurso-11k",
+            "title": "Atividades Plugadas 3º ano - Bing",
+            "type": "recurso",
+            "url": "https://www.bing.com/?cc=br"
+          },
+          {
+            "id": "recurso-11l",
+            "title": "Atividades Plugadas 3º ano - Vídeo Privacidade Online",
+            "type": "recurso",
+            "url": "https://www.youtube.com/watch?v=IRYbq9EMyNM&t=5s"
+          },
+          {
+            "id": "recurso-11m",
+            "title": "Atividades Plugadas 4º ano - Batalha Naval",
+            "type": "recurso",
+            "url": "https://www.paciencia.co/batalha-naval"
+          },
+          {
+            "id": "recurso-11n",
+            "title": "Atividades Plugadas 4º ano - Conversão de Textos em Códigos (Texto para Binário)",
+            "type": "recurso",
+            "url": "https://pt.convertbinary.com/texto-para-binario/"
+          },
+          {
+            "id": "recurso-11o",
+            "title": "Atividades Plugadas 4º ano - Conversão de Textos em Códigos (ASCII)",
+            "type": "recurso",
+            "url": "https://site112.com/converter-texto-ascii"
+          },
+          {
+            "id": "recurso-11p",
+            "title": "Atividades Plugadas 4º ano - Editor de Texto (Google Docs)",
+            "type": "recurso",
+            "url": "https://docs.google.com/document/u/0/?hl=pt-BR"
+          },
+          {
+            "id": "recurso-11q",
+            "title": "Atividades Plugadas 4º ano - Scratch - Algoritmos com Repetição",
+            "type": "recurso",
+            "url": "https://scratch.mit.edu"
+          },
+          {
+            "id": "recurso-11r",
+            "title": "Atividades Plugadas 5º ano - Google Maps",
+            "type": "recurso",
+            "url": "https://www.google.com/maps"
+          },
+          {
+            "id": "recurso-11s",
+            "title": "Atividades Plugadas 5º ano - Playlist Digital no Youtube",
+            "type": "recurso",
+            "url": "https://www.youtube.com"
+          },
+          {
+            "id": "recurso-11t",
+            "title": "Atividades Plugadas 5º ano - Quiz Interativo (QuizClass)",
+            "type": "recurso",
+            "url": "https://quizclass.com.br"
+          },
+          {
+            "id": "recurso-11u",
+            "title": "Atividades Plugadas 5º ano - Quiz Interativo (Wordwall)",
+            "type": "recurso",
+            "url": "https://wordwall.net"
+          },
+          {
+            "id": "recurso-11v",
+            "title": "Atividades Plugadas 5º ano - Scratch - Jogo com Decisões",
+            "type": "recurso",
+            "url": "https://scratch.mit.edu"
+          },
+          {
+            "id": "recurso-11w",
+            "title": "Cursos para Formação Continuada",
+            "type": "form",
+            "url": "https://forms.gle/qUTqjojhksUepeiR8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sabado-20-12",
+    "label": "Sábado (20/12)",
+    "order": 12,
+    "date": "20/12",
+    "sections": [
+      {
+        "id": "zoom",
+        "label": "Link Reuniões do Zoom",
+        "items": [
+          {
+            "id": "zoom-manha-12",
+            "title": "M02A05 - Atividades Práticas BNCC Computacional (Anos Iniciais) - (Plugada e Desplugada) | Introdução aos anos Finais (Manhã)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/87535173210?pwd=ke05vLbh3NFw39dghHbsjNDBb6JD26.1"
+          }
+        ]
+      },
+      {
+        "id": "presencas",
+        "label": "Link Presenças",
+        "items": [
+          {
+            "id": "presenca-12",
+            "title": "Formulário de Presença",
+            "type": "form",
+            "url": "https://forms.gle/EHFhr9zMSm4jxnzS8"
+          }
+        ]
+      },
+      {
+        "id": "recursos",
+        "label": "Links dos Sites das Atividades Práticas",
+        "items": [
+          {
+            "id": "recurso-12a",
+            "title": "Atividades Plugadas 6º ano - Organizando Dados em Tabelas (Excel / Google)",
+            "type": "recurso",
+            "url": "https://docs.google.com/spreadsheets/d/13OwDM8nUDm3AZvQkHY1NnTLkd_rrpTrDL7et1dQ_jUs/edit?gid=0#gid=0"
+          },
+          {
+            "id": "recurso-12b",
+            "title": "Atividades Plugadas 6º ano - Portugol",
+            "type": "recurso",
+            "url": "https://portugol.dev/"
+          },
+          {
+            "id": "recurso-12c",
+            "title": "Atividades Plugadas 7º ano - Criação de Podcasts ou Canais do Youtube",
+            "type": "recurso",
+            "url": "https://www.youtube.com/watch?v=Ps1QWciAXGg"
+          },
+          {
+            "id": "recurso-12d",
+            "title": "Atividades Plugadas 9º ano - Conscientização Digital (Google)",
+            "type": "recurso",
+            "url": "http://www.google.com.br"
+          },
+          {
+            "id": "recurso-12e",
+            "title": "Atividades Plugadas 9º ano - Mapa Interativo de Conectividade Global (Submarine Cable Map)",
+            "type": "recurso",
+            "url": "https://www.submarinecablemap.com"
+          },
+          {
+            "id": "recurso-12f",
+            "title": "Atividades Plugadas 9º ano - Mapa Interativo de Conectividade Global (Internet Map)",
+            "type": "recurso",
+            "url": "https://internet-map.net"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "segunda-22-12",
+    "label": "Segunda-Feira (22/12)",
+    "order": 13,
+    "date": "22/12",
+    "sections": [
+      {
+        "id": "zoom",
+        "label": "Link Reuniões do Zoom",
+        "items": [
+          {
+            "id": "zoom-manha-13",
+            "title": "M02A06 - Atividades Práticas BNCC Computacional (Anos Finais) - (Plugada e Desplugada) (Manhã)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/85203251089?pwd=5J1FOXIi2u7NuTfhsnf2l3OzlUbvf5.1"
+          },
+          {
+            "id": "zoom-tarde-13",
+            "title": "M02A06 - Atividades Práticas BNCC Computacional (Anos Finais) - (Plugada e Desplugada) (Tarde)",
+            "type": "zoom",
+            "url": "https://us06web.zoom.us/j/82412703218?pwd=2JCDh2rxbYDNHGi67yLcRiinmZ9anJ.1"
+          }
+        ]
+      },
+      {
+        "id": "presencas",
+        "label": "Link Presenças",
+        "items": [
+          {
+            "id": "presenca-13",
+            "title": "Formulário de Presença",
+            "type": "form",
+            "url": "https://forms.gle/YXGJhdAk4KdYTPHE6"
+          }
+        ]
+      },
+      {
+        "id": "outros",
+        "label": "Outros Formulários",
+        "items": [
+          {
+            "id": "formulario-satisfacao-13",
+            "title": "Formulário Pesquisa de Satisfação",
+            "type": "form",
+            "url": "https://forms.gle/qt91pS4QQDKnLTaV9"
+          }
+        ]
+      }
+    ]
+  }
+]

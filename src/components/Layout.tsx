@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { useAuth } from "../contexts/AuthContext";
+import { Avatar } from "./Avatar";
 
 interface LayoutProps {
   children: ReactNode;
@@ -24,6 +25,13 @@ export function Layout({ children }: LayoutProps) {
             <div className="flex items-center gap-4">
               {user && (
                 <div className="flex items-center gap-3">
+                  <Avatar
+                    src={user.avatar}
+                    name={user.name}
+                    username={user.username}
+                    size="md"
+                    className="flex-shrink-0"
+                  />
                   <div className="text-right hidden sm:block">
                     <p className="text-xs font-medium text-gray-100">
                       {user.name}

@@ -1,0 +1,41 @@
+📚 *BNCC Manager - Plataforma de Links*
+
+Olá! A plataforma de consulta rápida de links está disponível:
+
+🔗 *Acesse:* https://bnccmanager.vercel.app/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔐 *CREDENCIAIS DE ACESSO:*
+
+👤 *raphael.vascconcelos*
+🔑 Senha: raphael2025
+
+👤 *matheus.costa*
+🔑 Senha: matheus2025
+
+👤 *andrea.vasconcelos*
+🔑 Senha: andrea2025
+
+👤 *marcus.lopes*
+🔑 Senha: marcus2025
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 *SOBRE A APLICAÇÃO:*
+
+A plataforma organiza todos os links de aulas, formulários e recursos do curso BNCC por dia. Os professores podem:
+
+✅ Acessar links de Zoom (manhã e tarde)
+✅ Encontrar formulários de presença, dinâmicas e avaliação
+✅ Consultar recursos adicionais (E-books, vídeos, sites)
+✅ Copiar links rapidamente para compartilhar com a turma
+✅ Filtrar por tipo (Zoom, Formulários, Recursos)
+✅ Buscar por palavras-chave
+
+Interface moderna com tema escuro e navegação intuitiva.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Qualquer dúvida, estou à disposição! 😊
+

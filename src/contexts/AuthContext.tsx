@@ -3,6 +3,7 @@ import { createContext, useContext, useState, useEffect, ReactNode } from "react
 interface User {
   username: string;
   name: string;
+  avatar?: string;
 }
 
 interface AuthContextType {
@@ -48,6 +49,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       try {
         const parsed = JSON.parse(savedUser);
         if (PREDEFINED_USERS[parsed.username]) {
+          // Garantir que o avatar está definido mesmo se não estava no localStorage
+          const avatarExtensions = [".jpg", ".jpeg", ".png", ".webp"];
+          if (!parsed.avatar) {
+            parsed.avatar = `/avatars/${parsed.username}${avatarExtensions[0]}`;
+          }
           setUser(parsed);
         }
       } catch {
@@ -66,9 +72,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const user = PREDEFINED_USERS[username];
     // Verificar se o usuário existe e se a senha está correta
     if (user && user.password === password) {
+      // O componente Avatar tentará encontrar a imagem automaticamente
+      // com diferentes variações de nome e extensão
       const userData: User = {
         username,
         name: user.name,
+        avatar: undefined, // Deixa o componente Avatar tentar encontrar
       };
       setUser(userData);
       localStorage.setItem(STORAGE_KEY, JSON.stringify(userData));

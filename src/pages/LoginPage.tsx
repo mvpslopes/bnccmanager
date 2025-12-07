@@ -1,12 +1,23 @@
 import { useState } from "react";
 import { useAuth } from "../contexts/AuthContext";
+import { Avatar } from "../components/Avatar";
+
+// Lista de usuários para o select
+const USERS_LIST = [
+  { username: "raphael.vascconcelos", name: "Raphael Vasconcelos" },
+  { username: "matheus.costa", name: "Matheus Costa" },
+  { username: "andrea.vasconcelos", name: "Andrea Vasconcelos" },
+  { username: "marcus.lopes", name: "Marcus Lopes" },
+];
 
 export function LoginPage() {
-  const [username, setUsername] = useState("");
+  const [selectedUsername, setSelectedUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const { login } = useAuth();
+  
+  const selectedUser = USERS_LIST.find(u => u.username === selectedUsername);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -16,7 +27,7 @@ export function LoginPage() {
     // Simular um pequeno delay para melhor UX
     await new Promise((resolve) => setTimeout(resolve, 300));
 
-    const success = login(username.trim().toLowerCase(), password);
+    const success = login(selectedUsername.trim().toLowerCase(), password);
 
     if (!success) {
       setError("Usuário ou senha incorretos. Verifique suas credenciais.");
@@ -56,6 +67,68 @@ export function LoginPage() {
             </p>
           </div>
 
+          {/* Seleção de Usuário */}
+          <div className="mb-5">
+            <label
+              htmlFor="user-select"
+              className="block text-xs font-semibold uppercase tracking-wide text-gray-300 mb-2"
+            >
+              Selecione seu usuário
+            </label>
+            <div className="relative">
+              <select
+                id="user-select"
+                value={selectedUsername}
+                onChange={(e) => {
+                  setSelectedUsername(e.target.value);
+                  setError("");
+                }}
+                className="w-full pl-4 pr-10 py-3 rounded-lg border border-gray-700 bg-gray-900 text-sm text-gray-100 appearance-none focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500/30 transition-all cursor-pointer"
+              >
+                <option value="">-- Selecione um usuário --</option>
+                {USERS_LIST.map((user) => (
+                  <option key={user.username} value={user.username}>
+                    {user.name}
+                  </option>
+                ))}
+              </select>
+              <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                <svg
+                  className="w-5 h-5 text-gray-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </div>
+            </div>
+            
+            {/* Avatar do usuário selecionado */}
+            {selectedUser && (
+              <div className="mt-4 flex items-center justify-center gap-3 p-4 bg-gray-800/50 rounded-lg border border-gray-700">
+                <Avatar
+                  name={selectedUser.name}
+                  username={selectedUser.username}
+                  size="lg"
+                />
+                <div className="text-left">
+                  <p className="text-sm font-medium text-gray-100">
+                    {selectedUser.name}
+                  </p>
+                  <p className="text-xs text-gray-400">
+                    {selectedUser.username}
+                  </p>
+                </div>
+              </div>
+            )}
+          </div>
+
           {/* Form */}
           <form onSubmit={handleSubmit} className="space-y-5">
             {error && (
@@ -77,45 +150,6 @@ export function LoginPage() {
               </div>
             )}
 
-            <div>
-              <label
-                htmlFor="username"
-                className="block text-xs font-semibold uppercase tracking-wide text-gray-300 mb-2"
-              >
-                Nome de usuário
-              </label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <svg
-                    className="h-5 w-5 text-gray-500"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                    />
-                  </svg>
-                </div>
-                <input
-                  id="username"
-                  type="text"
-                  value={username}
-                  onChange={(e) => {
-                    setUsername(e.target.value);
-                    setError("");
-                  }}
-                  placeholder="ex: raphael.vascconcelos"
-                  className="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-700 bg-gray-900 text-sm text-gray-100 placeholder-gray-500 focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500/30 transition-all"
-                  required
-                  autoComplete="username"
-                  disabled={isLoading}
-                />
-              </div>
-            </div>
 
             <div>
               <label
@@ -159,7 +193,7 @@ export function LoginPage() {
 
             <button
               type="submit"
-              disabled={isLoading}
+              disabled={isLoading || !selectedUsername}
               className="w-full bg-primary-500 text-white py-3 px-4 rounded-lg font-medium text-sm shadow-sm hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 transition-all duration-150 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
             >
               {isLoading ? (
@@ -205,14 +239,6 @@ export function LoginPage() {
               )}
             </button>
           </form>
-
-          {/* Info sobre usuários */}
-          <div className="mt-6 pt-6 border-t border-gray-700">
-            <p className="text-xs text-gray-400 text-center">
-              Usuários cadastrados: raphael.vascconcelos, matheus.costa,
-              andrea.vasconcelos, marcus.lopes
-            </p>
-          </div>
         </div>
       </div>
     </div>

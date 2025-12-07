@@ -15,7 +15,11 @@ export function DayCard({ day, isSelected, onSelect }: DayCardProps) {
   return (
     <button
       type="button"
-      onClick={onSelect}
+      onClick={(e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        onSelect?.();
+      }}
       className={`w-full rounded-xl border px-4 py-3.5 text-left transition-all duration-150 ${
         isSelected
           ? "border-primary-500 bg-primary-500 text-white shadow-md"
